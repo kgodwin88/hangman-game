@@ -11,7 +11,7 @@ var losses = 0;
 function hangman(){
     word = words[Math.floor(Math.random()*words.length)];
     wrongLetter = [];
-    guesses = Math.floor(word.length * .75);
+    guesses = Math.floor(word.length);
     guess = word.split("");
     compare = word.split("");
     for(var i=0; i < guess.length; i++){

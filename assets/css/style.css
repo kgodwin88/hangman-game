@@ -1,4 +1,23 @@
+.jumbotron{
+    background-image: url(../images/baseball.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
 body{
-    background-image: url(../images/football.jpg);
-
+    background-image: url(../images/baseball.jpg);
+    background-size: cover;
+    
+}
+#content{
+    color: #ffffff;
+   
+    
+    
+}
+h1,h2,h3,h4{
+    color: #ffffff;
+}
+pre {
+    border: 0; background-color: transparent;
+    
 }
