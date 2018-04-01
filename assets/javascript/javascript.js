@@ -16,7 +16,8 @@ function hangman(){
     compare = word.split("");
     for(var i=0; i < guess.length; i++){
         guess[i] = guess[i].replace(/[a-z]/gi, "_");
-    }
+    };
+    
     letters = guess.join(" ");
     console.log(word);
     console.log(letters);
